@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>MIHO NAKAJIMA</title>
+    <link rel="icon" href="img/icon.jpg">
+    <meta name="description" content="プロフィール">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" media="(min-width:1025px)" href="css/styles.css">
+    <link rel="stylesheet" media="(min-width:481px) and (max-width:1024px)" href="css/middle.css">
+    <link rel="stylesheet" media="(max-width:480px)" href="css/small.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">
+    </script>
+
+  </head>
+
+  <header>
+    <h1>MIHO NAKAJIMA</h1>
+  </header>
+
+  <div class="nav">
+   <ul>
+    <li>
+     <a href="index.html">TOP</a>
+    </li>
+
+    <li>
+     <a href="#profile">PROFILE</a>
+    </li>
+
+    <li>
+     <a href="#skill">SKILL</a>
+    </li>
+
+    <li>
+     <a href="#works">WORKS</a>
+    </li>
+
+    <li>
+     <a href="mailto:mi.nakajima@april-knights.com" target=”_blank>
+      CONTACT
+     </a>
+    </li>
+   </ul>
+
+   <nav class="globalMenuSp">
+    <ul>
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="#profile">PROFILE</a></li>
+        <li><a href="#skill">SKILL</a></li>
+        <li><a href="#works">WORKS</a></li>
+        <li><a href="mailto:mi.nakajima@april-knights.com" target=”_blank>CONTACT</a></li>
+    </ul>
+</nav>
+
+   <div class="navToggle">
+    <span></span><span></span><span></span><span>menu</span>
+</div>
+
+
+
+ </div>
+
+<body>
+
+<div class="PROFILE">
+  <a name="profile">
+    <h1>PROFILE</h1>
+  </a>
+    <div class="PROFILE-img">
+    <img src="img/icon.jpg" width="140" height="140" class="icon">
+   </div>
+    <p>
+      1988年2月5日生まれ。高知県出身。<br>
+      文化服装学院アパレルデザイン科卒業。<br>
+      スタイリストアシスタント、衣装製作に携わった後、<br>
+      某アパレル会社に就職。4年勤務。<br>
+      2019年よりIT業界へ。
+    </p>
+</div>
+
+<div class="SKILL">
+  <div class="skill-title">
+   <a name="skill">
+    <h1>SKILL</h1>
+   </a>
+  </div>
+
+  <div class="dsign">
+   <p>
+    <h3>
+      <i class="fas fa-desktop"></i>
+      デザイン・コーディング
+    </h3>
+    HTML5 半年<br>
+    CSS3 半年
+   </p>
+  </div>
+
+   <div class="frontend">
+   <p>
+    <h3>
+      <i class="fas fa-server"></i>
+      フロントエンド
+    </h3>
+    javascript 2カ月<br>
+    jQuery  2カ月
+   </p>
+   </div>
+
+  <div class="other">
+  <p>
+    <h3>
+      <i class="fas fa-edit"></i>
+      その他
+    </h3>
+    canva 半年<br>
+    figma 3カ月
+  </p>
+  </div>
+</div>
+
+<div class="WORKS">
+<a name="works">
+    <h1>WORKS</h1>
+</a>
+
+  <div class="portfolio">
+   <a href="https://myportfolioproject-cba11.firebaseapp.com" target=”_blank>
+   <img src="img/portfolio.png" alt="ポートフォリオサイト画像">
+  </a>
+  </div>
+
+ <div class="sumabura">
+  <a href="https://newbit-bc3bf.firebaseapp.com" target=”_blank>
+   <img src="img/sumabura.png" alt="社内対抗戦サイト画像">
+  </a>
+ </div>
+
+ <div class="lolsta">
+  <a href="https://lol-akvssta.firebaseapp.com" target=”_blank>
+   <img src="img/lolsta.png" alt="lolsta企業対抗戦画像">
+  </a>
+ </div>
+
+ <div class="unitychan">
+  <img src="img/unitychan.png" alt="ユニティちゃんゲーム画像">
+ </div>
+</div>
+
+<script type="text/javascript">
+$(function() {
+$('.navToggle').click(function() {
+    $(this).toggleClass('active');
+
+    if ($(this).hasClass('active')) {
+        $('.globalMenuSp').addClass('active');
+    } else {
+        $('.globalMenuSp').removeClass('active');
+    }
+});
+});
+</script>
+
+
+</body>
+
+
+<footer>
+  <div class="footer-nav">
+   <ul>
+    <li>
+     <a href="index.html">TOP</a>
+    </li>
+
+    <li>
+     <a href="#profile">PROFILE</a>
+    </li>
+
+    <li>
+     <a href="#skill">SKILL</a>
+    </li>
+
+    <li>
+     <a href="#works">WORKS</a>
+    </li>
+
+    <li>
+     <a href="mailto:mi.nakajima@april-knights.com" target=”_blank>
+      CONTACT
+     </a>
+    </li>
+   </ul>
+ </div>
+  <h5>Copyright©MIHO NAKAJIMA</h5>
+</footer>
+
+
+
+</html>
